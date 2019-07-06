@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 15px;
+}
+
+.header-right {
+  display: flex;
+  margin-left: 60rem;
+}
+
+.header-right li {
+  padding-left: 50px;
+}
