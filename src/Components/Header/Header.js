@@ -4,7 +4,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <ul className="header">
-      <li>Logo</li>
+      <li>Hugo TH</li>
       <div className="header-right">
         <li>Discover</li>
         <li>My Profile</li>

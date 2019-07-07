@@ -4,10 +4,10 @@ import "./Home.scss";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container-home">
       <Header />
       <div className="title-home">
-        <h2>Your story</h2>
+        <h2>My book</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           viverra ex in gravida rhoncus. In venenatis nibh eget tincidunt
@@ -15,6 +15,7 @@ const Home = () => {
           dapibus. Mauris scelerisque diam sem, tristique finibus sem commodo
           nec.
         </p>
+        <button className="slide">Slide</button>
       </div>
     </div>
   );

@@ -2,14 +2,13 @@ import React from "react";
 import "./App.scss";
 import Home from "./Containers/Home/Home";
 
-import OneRound from "./Containers/Home/Background";
+import Logos from "./Components/Logos/Logos/Logos";
 
 function App() {
   return (
-    <div className="container">
-      <OneRound />
-
+    <div>
       <Home />
+      <Logos />
     </div>
   );
 }
