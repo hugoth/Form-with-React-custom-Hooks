@@ -15,16 +15,6 @@ const float = keyframes`
   to   { transform: translate(0, -0px); }    
 `;
 
-const hover = keyframes`
-background-`;
-// const rotate = keyframes`
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// `;
 const StyledMongo = styled(Mongo)`
   fill : #fff
   width : 200px

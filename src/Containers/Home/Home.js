@@ -15,7 +15,7 @@ const Home = () => {
           dapibus. Mauris scelerisque diam sem, tristique finibus sem commodo
           nec.
         </p>
-        <button className="slide">Slide</button>
+        <button className="button">Slide</button>
       </div>
     </div>
   );
